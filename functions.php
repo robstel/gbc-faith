@@ -36,9 +36,7 @@ function gbc_list_child_pages() {
 add_shortcode('gbc-child-pages', 'gbc_list_child_pages');
 
 // add shortcode [gbc-excerpt] to show the excerpt
-///
 add_shortcode('gbc-excerpt', 'get_the_excerpt');
 
 // enable excerpts on pages
-//
 add_post_type_support('page', 'excerpt');

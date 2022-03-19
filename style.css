@@ -10,45 +10,35 @@ Text Domain:  gbcfaith
 */
 
 :root {
-	--faith-link-color-hover: #aa4400;
+	/* accent colour to match the GBC logo */
+	--faith-primary-accent-color: #aa4400;
+	--faith-link-color-hover: var(--faith-primary-accent-color);
 }
 
-h1, h2, h3 {
-	color: var(--faith-link-color-hover);
+/* Major headings use the accent colour */
+h1, h2, h3, a.wpfc-sermon-title-text {
+	color: var(--faith-primary-accent-color);
 }
 
+/* Text box in the slider etc. has translucent grey background */
 #ilovewp-hero .content-wrapper {
 	background-color: #0c0c0c80;
 }
 
+/* News-box background is translucent accent colour */
 #ilovewp-home-welcome .ilovewp-column-2 .ilovewp-column-wrapper {
 	background-color: #aa4400eb;
-	border: 1px solid #aa4400eb;
+	border: none;
 }
 
+/* Contrasting link hover colour for brown background */
 #ilovewp-home-welcome .ilovewp-column-2 a:hover,
 #ilovewp-home-welcome .ilovewp-column-2 a:focus {
 	color: var(--faith-primary-text-color);
 }
 
+/* List style for sub-pages lists */
 ul.gbc-page-list li {
 	list-style: none;
 	list-style-type: none;
 }
-
-a.wpfc-sermon-title-text {
-	color: var(--faith-link-color);
-}
-
-/*
-.wrap .widget-title {
-	color: var(--faith-primary-text-color);
-	display: block;
-	font-size: 16px;
-	font-weight: 600;
-	line-height: 1.5;
-	margin: 0 0 1.5em;
-	position: relative;
-}
-
-*/

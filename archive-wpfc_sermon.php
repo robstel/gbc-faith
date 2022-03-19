@@ -2,7 +2,7 @@
 /**
  * Template used for displaying sermon archive pages
  *
- * Overrides Sermon Manager views/archive-wpfc_sermon.php
+ * Overrides Sermon Manager file `views/archive-wpfc_sermon.php`
  */
 
 get_header();

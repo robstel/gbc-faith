@@ -1,4 +1,7 @@
 <?php
+/**
+ * Functions for the "gbc-faith" child theme.
+ */
 
 // enqueue the parent and child theme styles
 //

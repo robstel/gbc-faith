@@ -1,8 +1,9 @@
 <?php
 /**
- * Archive wrapper, for theme compatibility.
+ * Overrides Sermon Manager file `views/partials/content-sermon-manager-end.php`
  *
- * Overrides Sermon Manager views/partials/content-sermon-manager-end.php
+ * Applies wrapper elements for theme compatibility.
+ *
 */
 
 defined( 'ABSPATH' ) or exit;

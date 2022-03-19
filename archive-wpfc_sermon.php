@@ -12,8 +12,9 @@ echo wpfc_get_partial( 'content-sermon-wrapper-start' );
 ?>
 <h1 class="title-page">Sermons</h1>
         <p class="post-single">Sermon videos can be viewed on the sermon page and on our
-          <a rel="noreferrer noopener" href="https://www.youtube.com/channel/UCG15-6djdNiIieWyRwLqoVA/videos"
-          target="_blank">YouTube channel</a>.</p>
+            <a rel="noreferrer noopener" href="https://www.youtube.com/channel/UCG15-6djdNiIieWyRwLqoVA/videos" target="_blank">
+			<span class="dashicons dashicons-youtube" style="color:red"></span> YouTube channel</a>.
+		</p>
         <p class="post-single">Click a sermon title to go to the sermon page.</p>
         <p class="post-single">Use these controls to filter the list [<a class="gbc-clear-filters" href="/sermons/">clear</a>] :</p>
 <?php

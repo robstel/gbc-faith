@@ -16,8 +16,14 @@ Text Domain:  gbcfaith
 }
 
 /* Major headings use the accent colour */
-h1, h2, h3, a.wpfc-sermon-title-text {
+h1, h2, h3,
+a.wpfc-sermon-title-text {
 	color: var(--faith-primary-accent-color);
+}
+
+/* No underline on links */
+.post-single a {
+	text-decoration: none;
 }
 
 /* Text box in the slider etc. has translucent grey background */
@@ -41,4 +47,10 @@ h1, h2, h3, a.wpfc-sermon-title-text {
 ul.gbc-page-list li {
 	list-style: none;
 	list-style-type: none;
+}
+
+/* Icon font in site content  */
+#site-main .dashicons {
+	text-decoration:none;
+	vertical-align:middle;
 }
